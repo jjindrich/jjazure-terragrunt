@@ -5,6 +5,11 @@ locals {
   subscription_id = "eb1d6021-9f80-4613-b383-2bd8c4d31f09"
 }
 
+inputs = {
+  resource_group_name = local.resource_group_name
+  location           = local.location
+}
+
 generate "provider" {
   path      = "provider.tf"
   if_exists = "overwrite_terragrunt"

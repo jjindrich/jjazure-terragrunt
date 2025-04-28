@@ -1,8 +1,6 @@
 locals {
-  common_vars = {
-    resource_group_name = "jjtfdemo-rg"
-    location            = "Germany West Central"
-  }
+  resource_group_name = "jjtfdemo-rg"
+  location            = "Germany West Central"
 
   subscription_id = "eb1d6021-9f80-4613-b383-2bd8c4d31f09"
 }

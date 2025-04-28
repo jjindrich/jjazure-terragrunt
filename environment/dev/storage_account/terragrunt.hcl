@@ -3,7 +3,7 @@ include {
 }
 
 terraform {
-  source = "../storage_account"
+  source = "../../../modules/storage_account"
 }
 
 dependency "resource_group" {

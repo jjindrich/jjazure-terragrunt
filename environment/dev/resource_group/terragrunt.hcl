@@ -5,8 +5,3 @@ include {
 terraform {
   source = "../../../modules/resource_group"
 }
-
-inputs = {
-  resource_group_name = "myResourceGroup"
-  location            = "East US"
-}
